@@ -1,0 +1,16 @@
+.idea
+.gradle
+.settings
+build
+out
+.project
+.classpath
+
+*.iml
+*.ipr
+*.iws
+.DS_STORE
+.ipynb_checkpoints
+graphs
+charts
+csv
