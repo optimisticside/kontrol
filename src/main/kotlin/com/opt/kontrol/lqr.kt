@@ -1,3 +1,5 @@
+package com.opt.kontrol;
+
 import org.jetbrains.kotlinx.multik.ndarray.data.D2Array;
 import org.jetbrains.kotlinx.multik.api.linalg.LinAlgEx;
 import org.jetbrains.kotlinx.multik.api.Multik;
@@ -26,7 +28,7 @@ public class LqrController<T>(s: int, c: int, rng: () -> T) {
 	// i-controller coefficient.
 	var ki: T = 0,
 	// Sccumulating integral error for the i-controller.
-	var integral_error: T = 0,
+	var integralError: T = 0,
 
 	/**
 	 * Returns a string-representation of the controller.
