@@ -10,6 +10,10 @@ import org.jetbrains.kotlinx.multik.api.Multik;
  * An LQR is able to solve the optimal control problem in a system that can be described by a set
  * of linear differential equations, and the cost can be described by a quadratic function.
  * 
+ * @param s state dimensions
+ * @param c control dimensions
+ * @param rng random number generator capable of creating numbers of type T
+ * 
  * For more info see
  * https://www.cds.caltech.edu/~murray/courses/cds110/wi06/lqr.pdf
  * 
